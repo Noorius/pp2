@@ -6,4 +6,4 @@ def palindrom(word):
             return False
     return True
 
-print(palindrom(input()))
+print(palindrom(input())) #Создаем дэк и сравниваем результаты функц. pop() пока длина больше 1
