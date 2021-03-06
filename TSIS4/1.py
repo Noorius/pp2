@@ -1,10 +1,10 @@
-import sys
 import re
 
-def rex(text):
-    for i in re.findall(r'#[0-9A-Fa-f]{3,6}(?!\s{)',text):
-        print(i)
-
 if __name__ == '__main__':
-    text=str(sys.stdin.read())
-    rex(text)
+    pattern=re.compile(r'#[0-9A-Fa-f]{3,6}(?!\s{)')
+    n = int(input())
+    for i in range(n):
+        line=str(input())
+        item=pattern.findall(line)
+        if item:
+            print(item[0])
