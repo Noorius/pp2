@@ -1,6 +1,6 @@
 # Programming Principles 2
 
-## All codes for the PP2 course spring semester 2021
+All codes for the PP2 course spring semester 2021
 
 Topics:
 
