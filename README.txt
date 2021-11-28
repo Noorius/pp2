@@ -2,8 +2,6 @@
 
 ## All codes for the PP2 course spring semester 2021
 
-Programming Principles 2
-
 Topics:
 
 Python fundamentals.
